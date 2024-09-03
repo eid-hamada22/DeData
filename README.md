@@ -43,5 +43,26 @@ And we can change the data label in the Data Visualizetion by dubble click the w
 ![data_label4](https://github.com/user-attachments/assets/b0268e2b-c235-4868-8241-0e4870aefba1)
 
 Both of the supervised and unsupervised models pages have models taps, those taps when you click it,
+![models1](https://github.com/user-attachments/assets/79a00df0-735f-4d2f-bdb1-6ae2597bc928)
+![models2](https://github.com/user-attachments/assets/5a5ffb9e-516f-4865-a8a0-e6a5eefdf839)
 
-a window will arise, this window is divided to two parts, the left part include the model description some images that demonstrate how the model work, and a parameters description, the right part include: firstly a checker that check if the model can work with the data label you have opted, or not, because some model work with class some with numbers and other advance things, and if the checker accept, you can use the model, if not you cannot and the checker will recommend an alternative model, if you click use the model, the model will go to the work space page , and each dataset has its own work space models.
+a window will arise, this window is divided to two parts, the left part include the model description some images that demonstrate how the model work, and a parameters description, the right part include: firstly a checker that check if the model can work with the data label you have opted, or not, because some model work with class some with numbers and other advance things, and if the checker accept, you can use the model, if not you cannot and the checker will recommend an alternative model,
+![models3](https://github.com/user-attachments/assets/a18ef95c-2f43-4bf7-8fbc-f1e9401ef32d)
+![models4](https://github.com/user-attachments/assets/749de7f6-2c5d-4bc8-a16f-e554639346c0)
+
+if you click use the model, the model will go to the work space page.
+![work1](https://github.com/user-attachments/assets/5ae150e3-c78e-43ab-ba13-489442519205)
+And each dataset has its own work space models.
+![work2](https://github.com/user-attachments/assets/f66d6213-b425-4f3a-9e1d-d56122d42bab)
+
+Than we have the work space page with same design of the supervised and unsupervised models pages, and a window will arise when click it, the right part of the window is very similar also, but with an adjustable parameters and model code, and both of the real and printed code get adjust when the user adjusts the parameters, so the user can compare between the parameters values.
+![work_1](https://github.com/user-attachments/assets/9f8833b0-de5a-4bbc-be63-5779c83433e0)
+
+The left part has also a checker, and down of it, we have a group of buttons, the first button is the train button, when you click it the model get trained.
+![work2 (2)](https://github.com/user-attachments/assets/8e07add5-31cf-474a-8621-be88985c3314)
+Down of it is the predict button when you click it a 3d window will arise, in it you put a new data and the model predict the label.
+![work3](https://github.com/user-attachments/assets/fdb2bcb8-739e-4755-8502-e9f1e95b1684)
+Down of it is the plot button with its own window also, in It you can plot some charts about the model performance. 
+![work4](https://github.com/user-attachments/assets/4ae84eea-512f-4bdc-aa98-553085a09142)
+Finally, the save model button, which save the model "trained" in 'sav' format in the saved_models folder, and when open the model next time, you will work in the same model, paramter, test score.
+
