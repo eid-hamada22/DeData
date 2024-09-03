@@ -4,7 +4,7 @@
 PyQt5 Hands-on Machine-Learning Educational App.
 
 Made with Passion.
-War Bloodstained project that was planned to be my main [RISE](https://www.risefortheworld.org/) project, however, due to Internet and electrcity cutoff, I didn't manage to upload it.
+War Bloodstained project that was planned to be my main [RISE](https://www.risefortheworld.org/) project, however, due to Internet and electricity cutoff, I didn't manage to upload it.
 
 ## used Tools and techniques :
 - Python.
@@ -19,30 +19,30 @@ War Bloodstained project that was planned to be my main [RISE](https://www.risef
 
 ## Development period: +4 months.
 
-Essentially, my program work with data sets, you give it a data set and it make use of it in another sections, the first page is the page that take the dataset from the user.
-And there are 3 ways, first by load it from the user device as file or by load the file from the web using its direct URL, or use the demo datasets which come built in with the program. 
+Essentially, my program works with data sets, you give it a data set and it makes use of it in other sections, the first page is the page that takes the dataset from the user.
+There are three ways: first, load it from the user device as a file, load the file from the web using its direct URL, or use the demo datasets that come built-in with the program. 
 
 ![import_page](https://github.com/user-attachments/assets/c28e901c-9b7b-4346-b271-63d28f186867)
 
 
 The second page is the data visualization page, this page has two main functions.
-The first one is printing your data set in a organized way and you can adjust it and save the new values. 
+The first one prints your data set in an organized way, and you can adjust it and save the new values. 
 And making charts of your dataset.
 ![data_vis1](https://github.com/user-attachments/assets/bc1dbe3c-38b8-4c37-bfce-cb373e9b0bbf)
 
 ![data_vis2](https://github.com/user-attachments/assets/d0f69370-98d4-4d62-8e9d-696b339920a2)
 
 
-One thing I should explain it, is the data label , if I just load my file and try to enter the workspace or supervised or unsupervised pages, the program will refuse, because those 3 pages work with AI models, and you need to tale the AI models what you want to predict or estimate, so you must set a data label so the models understand that you will train them and then give them data without the data label column, and the model need to predict it.
+One thing I should explain is the data label, if I just load my file and try to enter the workspace or supervised or unsupervised pages, the program will refuse, because those 3 pages work with AI models, and you need to tell the AI models what you want to predict or estimate, so you must set a data label so the models understand that you will train them and then give them data without the data label column, and the model need to predict it.
 ![data_label1](https://github.com/user-attachments/assets/0867893f-8b61-4fcd-b8d1-76e8377f71f6)
 
 ![data_label2](https://github.com/user-attachments/assets/7a54575d-30d9-4ef2-ad90-ff09fe5c019d)
 
-And we can change the data label in the Data Visualizetion by dubble click the wanted cloumn name.
+We can change the data label in the Data visualization by double clicking the wanted column name.
 ![data_label3](https://github.com/user-attachments/assets/b8bdcc11-e97e-4c44-8c23-3206741fee2b)
 ![data_label4](https://github.com/user-attachments/assets/b23c94c2-f234-4df5-bdc4-0afcb6bc9571)
 
-Both of the supervised and unsupervised models pages have models taps, those taps when you click it,
+Both the supervised and unsupervised models pages have model taps, those taps When you click,
 ![models1](https://github.com/user-attachments/assets/8c827653-7085-4e41-a7be-fbb20defee21)
 ![models2](https://github.com/user-attachments/assets/2e72e02a-0c74-40fa-940e-a199b1dfaa6e)
 
@@ -62,13 +62,13 @@ Than we have the work space page with same design of the supervised and unsuperv
 The left part has also a checker, and down of it, we have a group of buttons, the first button is the train button, when you click it the model get trained.
 ![work2 (2)](https://github.com/user-attachments/assets/5d403142-aa2d-404b-bf70-8afd38d6de89)
 
-Down of it is the predict button when you click it a 3d window will arise, in it you put a new data and the model predict the label.
+Down of it is the predict button when you click it a 3d window will arise, in it, you put new data and the model predicts the label.
 ![work3](https://github.com/user-attachments/assets/2505c079-add7-45b0-a1ba-c5bebefcf742)
 
 
-Down of it is the plot button with its own window also, in It you can plot some charts about the model performance. 
+Down of it is the plot button with its own window also, in It, you can plot some charts about the model performance. 
 ![work4](https://github.com/user-attachments/assets/3b569683-d43f-41c8-95a1-46b034376c63)
 
-Finally, the save model button, which save the model "trained" in 'sav' format in the saved_models folder, and when open the model next time, you will work in the same model, paramter, test score.
+Finally, the save model button, which saves the model "trained" in 'sav' format in the saved_models folder, and then open the model next time, you will work in the same model, parameters, and test score.
 ![work5](https://github.com/user-attachments/assets/5546f951-8085-4aa2-a4d6-c82a2e23df73)
 
